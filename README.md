@@ -17,3 +17,18 @@ The script checks the registry key:
 
 ```reg
 HKCU\Software\Microsoft\Windows\CurrentVersion\Explorer\Advanced\HideFileExt
+
+Deployment Instructions (Local GPO)
+Save the script as AfficherExtensions.bat in a safe folder, e.g., C:\Scripts
+
+Open the Local Group Policy Editor: gpedit.msc
+
+Navigate to:
+
+User Configuration →
+Windows Settings →
+Scripts (Logon/Logoff) →
+Logon
+Add the script to the Logon section
+
+Run gpupdate /force to apply the policy
