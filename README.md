@@ -30,6 +30,13 @@ User Configuration →
 Windows Settings →
 Scripts (Logon/Logoff) →
 Logon
-Add the script to the Logon section
 ```
+Add the script to the Logon section
 Run gpupdate /force to apply the policy
+
+ Compatibility
+Windows 10, Windows 11
+
+Windows Server 2016 / 2019 / 2022
+
+Works for all local or domain user accounts
