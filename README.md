@@ -20,7 +20,7 @@ HKCU\Software\Microsoft\Windows\CurrentVersion\Explorer\Advanced\HideFileExt
 
 Deployment Instructions (Local GPO)
 Save the script as AfficherExtensions.bat in a safe folder, e.g., C:\Scripts
-```reg
+```
 
 Open the Local Group Policy Editor: gpedit.msc
 
@@ -31,5 +31,5 @@ Windows Settings →
 Scripts (Logon/Logoff) →
 Logon
 Add the script to the Logon section
-```reg
+```
 Run gpupdate /force to apply the policy
